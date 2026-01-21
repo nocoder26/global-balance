@@ -1,34 +1,43 @@
 [
   {
-    "category": "Browser",
+    "category": "Cloud Storage",
     "incumbent": {
       "name": "Various",
       "hq": "USA"
     },
     "innovators": [
       {
-        "id": "baidu-browser",
-        "name": "Baidu Browser",
-        "region": "Other",
-        "country": "People's Republic of China",
-        "url": "http://liulanqi.baidu.com/",
-        "description": "Baidu Browser - Software from People's Republic of China",
-        "status": {
-          "is_active": false,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 408
-        }
-      },
-      {
-        "id": "cheetah-security-browser",
-        "name": "Cheetah Security Browser",
-        "region": "Other",
-        "country": "People's Republic of China",
-        "url": "https://www.liebao.cn",
-        "description": "Cheetah Security Browser - Software from People's Republic of China",
+        "id": "cloudron",
+        "name": "Cloudron",
+        "region": "Western Europe",
+        "country": "Germany",
+        "url": "https://www.cloudron.io",
+        "description": "Cloudron - Software from Germany",
         "status": {
           "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      }
+    ]
+  },
+  {
+    "category": "Email",
+    "incumbent": {
+      "name": "Various",
+      "hq": "USA"
+    },
+    "innovators": [
+      {
+        "id": "proton-mail",
+        "name": "Proton Mail",
+        "region": "Western Europe",
+        "country": "Switzerland",
+        "url": "https://proton.me/mail",
+        "description": "Proton Mail - Software from Switzerland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
         }
       }
@@ -42,28 +51,41 @@
     },
     "innovators": [
       {
-        "id": "livechat",
-        "name": "LiveChat",
-        "region": "Europe",
-        "country": "Poland",
-        "url": "https://www.livechat.com",
-        "description": "LiveChat - Software from Poland",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
         "id": "wii-message-board",
         "name": "Wii Message Board",
-        "region": "Asia",
+        "region": "East Asia",
         "country": "Japan",
         "url": "https://www.nintendo.co.jp/wii/features/wiiconnect24.html",
         "description": "Wii Message Board - Software from Japan",
         "status": {
           "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "chatbot",
+        "name": "ChatBot",
+        "region": "Central Europe",
+        "country": "Poland",
+        "url": "https://www.chatbot.com",
+        "description": "ChatBot - Software from Poland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "livechat",
+        "name": "LiveChat",
+        "region": "Central Europe",
+        "country": "Poland",
+        "url": "https://www.livechat.com",
+        "description": "LiveChat - Software from Poland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
         }
       }
@@ -77,379 +99,80 @@
     },
     "innovators": [
       {
-        "id": "custom-cast",
-        "name": "CUSTOM CAST",
-        "region": "Asia",
-        "country": "Japan",
-        "url": "https://customcast.jp/",
-        "description": "CUSTOM CAST - Software from Japan",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "alpakalent",
-        "name": "Alpakalent",
-        "region": "Europe",
-        "country": "Germany",
-        "url": "https://alpakalent.com",
-        "description": "Alpakalent - Software from Germany",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "ai-endurance",
-        "name": "AI Endurance",
-        "region": "North America",
-        "country": "Canada",
-        "url": "https://aiendurance.com",
-        "description": "AI Endurance - Software from Canada",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "helpdesk",
-        "name": "HelpDesk",
-        "region": "Europe",
-        "country": "Poland",
-        "url": "https://www.helpdesk.com",
-        "description": "HelpDesk - Software from Poland",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "pixel-game-maker-mv",
-        "name": "Pixel Game Maker MV",
-        "region": "Asia",
-        "country": "Japan",
-        "url": "https://tkool.jp/act/",
-        "description": "Pixel Game Maker MV - Software from Japan",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "butterflai-art",
-        "name": "ButterflAI Art",
-        "region": "Europe",
-        "country": "Spain",
-        "url": "https://butterflai.pro",
-        "description": "ButterflAI Art - Software from Spain",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "the-nooj-kiswahili-module",
-        "name": "THE NooJ KISWAHILI MODULE",
-        "region": "Other",
-        "country": "Rwanda",
-        "url": "https://archive.softwareheritage.org/browse/directory/c4f7813b47d86b9c4604c083fc8fa8c5b43892fe/",
-        "description": "THE NooJ KISWAHILI MODULE - Software from Rwanda",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "customerhero",
-        "name": "CustomerHero",
-        "region": "Europe",
-        "country": "Poland",
-        "url": "https://www.customerhero.com/",
-        "description": "CustomerHero - Software from Poland",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "360-safeguard",
-        "name": "360 Safeguard",
-        "region": "Other",
-        "country": "People's Republic of China",
-        "url": "https://weishi.360.cn/",
-        "description": "360 Safeguard - Software from People's Republic of China",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "youdao-note",
-        "name": "Youdao Note",
-        "region": "Other",
-        "country": "People's Republic of China",
-        "url": "https://note.youdao.com/",
-        "description": "Youdao Note - Software from People's Republic of China",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "avalon-the-legend-lives",
-        "name": "Avalon: The Legend Lives",
-        "region": "Europe",
-        "country": "United Kingdom",
-        "url": "http://www.avalon-rpg.com",
-        "description": "Avalon: The Legend Lives - Software from United Kingdom",
-        "status": {
-          "is_active": false,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 0
-        }
-      },
-      {
-        "id": "decodoku",
-        "name": "Decodoku",
-        "region": "Europe",
-        "country": "Switzerland",
-        "url": "https://www.decodoku.com/",
-        "description": "Decodoku - Software from Switzerland",
-        "status": {
-          "is_active": false,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 404
-        }
-      },
-      {
-        "id": "everybody-votes-channel",
-        "name": "Everybody Votes Channel",
-        "region": "Asia",
-        "country": "Japan",
-        "url": "https://www.nintendo.co.jp/wii/features/poll/",
-        "description": "Everybody Votes Channel - Software from Japan",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "albumforge",
-        "name": "AlbumForge",
-        "region": "Europe",
-        "country": "France",
-        "url": "https://www.albumforge.com",
-        "description": "AlbumForge - Software from France",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "transocean-the-shipping-company",
-        "name": "TransOcean: The Shipping Company",
-        "region": "Europe",
-        "country": "Germany",
-        "url": "http://www.transocean-game.com",
-        "description": "TransOcean: The Shipping Company - Software from Germany",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "flame-over",
-        "name": "Flame Over",
-        "region": "Other",
-        "country": "England",
-        "url": "http://www.flameovergame.com",
-        "description": "Flame Over - Software from England",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "relic-hunters-zero",
-        "name": "Relic Hunters Zero",
-        "region": "South America",
-        "country": "Brazil",
-        "url": "https://www.akuparagames.com/game/relic-hunters-zero/",
-        "description": "Relic Hunters Zero - Software from Brazil",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
         "id": "quantum-moves",
         "name": "Quantum Moves",
-        "region": "Europe",
+        "region": "Northern Europe",
         "country": "Denmark",
         "url": "http://www.scienceathome.org",
         "description": "Quantum Moves - Software from Denmark",
         "status": {
           "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "huawei-pay",
-        "name": "Huawei Pay",
-        "region": "Other",
-        "country": "People's Republic of China",
-        "url": "https://consumer.huawei.com/cn/mobileservices/wallet/huawei-pay/bankcard/",
-        "description": "Huawei Pay - Software from People's Republic of China",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
+          "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
         }
       },
       {
         "id": "chuchel",
         "name": "Chuchel",
-        "region": "Europe",
+        "region": "Central Europe",
         "country": "Czech Republic",
         "url": "https://amanita-design.net/games/chuchel.html",
         "description": "Chuchel - Software from Czech Republic",
         "status": {
           "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
+          "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
         }
       },
       {
         "id": "rampnerd",
         "name": "Rampnerd",
-        "region": "Europe",
+        "region": "Western Europe",
         "country": "Belgium",
         "url": "https://rampnerd.com",
         "description": "Rampnerd - Software from Belgium",
         "status": {
           "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
+          "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
-        }
-      },
-      {
-        "id": "s4e-io",
-        "name": "S4E.io",
-        "region": "Other",
-        "country": "Turkey",
-        "url": "https://s4e.io/",
-        "description": "S4E.io - Software from Turkey",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "huawei-mobile-services",
-        "name": "Huawei Mobile Services",
-        "region": "Other",
-        "country": "People's Republic of China",
-        "url": "https://huaweimobileservices.com",
-        "description": "Huawei Mobile Services - Software from People's Republic of China",
-        "status": {
-          "is_active": false,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 0
-        }
-      },
-      {
-        "id": "shaad",
-        "name": "Shaad",
-        "region": "Other",
-        "country": "Iran",
-        "url": "https://shad.ir/",
-        "description": "Shaad - Software from Iran",
-        "status": {
-          "is_active": false,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 408
-        }
-      },
-      {
-        "id": "q134339301",
-        "name": "Q134339301",
-        "region": "Europe",
-        "country": "France",
-        "url": "https://www.shopopop.com",
-        "description": "Q134339301 - Software from France",
-        "status": {
-          "is_active": false,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 403
         }
       },
       {
         "id": "carmen-sandiego",
         "name": "Carmen Sandiego",
-        "region": "Europe",
+        "region": "Western Europe",
         "country": "France",
         "url": "https://carmensandiego-game.com/",
         "description": "Carmen Sandiego - Software from France",
         "status": {
           "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
+          "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
         }
       },
       {
         "id": "alex-the-allegator-4",
         "name": "Alex the Allegator 4",
-        "region": "Europe",
+        "region": "Northern Europe",
         "country": "Sweden",
         "url": "http://allegator.sourceforge.net/",
         "description": "Alex the Allegator 4 - Software from Sweden",
         "status": {
           "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
+          "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
         }
       },
       {
         "id": "tidio",
         "name": "Tidio",
-        "region": "Europe",
+        "region": "Central Europe",
         "country": "Poland",
         "url": "https://www.tidio.com/",
         "description": "Tidio - Software from Poland",
         "status": {
           "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "bale",
-        "name": "Bale",
-        "region": "Other",
-        "country": "Iran",
-        "url": "https://bale.ai/",
-        "description": "Bale - Software from Iran",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
+          "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
         }
       },
@@ -462,33 +185,7 @@
         "description": "Manja - Software from Israel",
         "status": {
           "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "linter-sql-rdbms",
-        "name": "Linter SQL RDBMS",
-        "region": "Europe",
-        "country": "Russia",
-        "url": "http://linter.ru/en/main/",
-        "description": "Linter SQL RDBMS - Software from Russia",
-        "status": {
-          "is_active": false,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 404
-        }
-      },
-      {
-        "id": "q135687066",
-        "name": "Q135687066",
-        "region": "Other",
-        "country": "http://www.wikidata.org/.well-known/genid/42f4f956061a3c6997381e20d8d09d4e",
-        "url": "https://www.12voip.com/dashboard",
-        "description": "Q135687066 - Software from http://www.wikidata.org/.well-known/genid/42f4f956061a3c6997381e20d8d09d4e",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
+          "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
         }
       },
@@ -501,34 +198,8 @@
         "description": "Bitmoji - Software from Canada",
         "status": {
           "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
+          "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
-        }
-      },
-      {
-        "id": "islam-360",
-        "name": "Islam 360",
-        "region": "Other",
-        "country": "Pakistan",
-        "url": "http://theislam360.com/",
-        "description": "Islam 360 - Software from Pakistan",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 200
-        }
-      },
-      {
-        "id": "udaanbill",
-        "name": "UdaanBill",
-        "region": "Asia",
-        "country": "India",
-        "url": "https://udaanbill.com",
-        "description": "UdaanBill - Software from India",
-        "status": {
-          "is_active": false,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 0
         }
       },
       {
@@ -540,33 +211,579 @@
         "description": "Pango - Software from Israel",
         "status": {
           "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
+          "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 247
-        }
-      },
-      {
-        "id": "q15929446",
-        "name": "Q15929446",
-        "region": "Other",
-        "country": "People's Republic of China",
-        "url": "http://bar.baidu.com/",
-        "description": "Q15929446 - Software from People's Republic of China",
-        "status": {
-          "is_active": false,
-          "last_checked": "2026-01-21T14:18:06.853Z",
-          "http_code": 500
         }
       },
       {
         "id": "unified-remote",
         "name": "Unified Remote",
-        "region": "Europe",
+        "region": "Northern Europe",
         "country": "Sweden",
         "url": "http://www.unifiedremote.com/",
         "description": "Unified Remote - Software from Sweden",
         "status": {
           "is_active": true,
-          "last_checked": "2026-01-21T14:18:06.853Z",
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "openvpms",
+        "name": "OpenVPMS",
+        "region": "Oceania",
+        "country": "Australia",
+        "url": "https://openvpms.org/",
+        "description": "OpenVPMS - Software from Australia",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "apertus",
+        "name": "Apertus",
+        "region": "Western Europe",
+        "country": "Switzerland",
+        "url": "https://apertus.ai/",
+        "description": "Apertus - Software from Switzerland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "netcommons",
+        "name": "NetCommons",
+        "region": "East Asia",
+        "country": "Japan",
+        "url": "https://www.netcommons.org/",
+        "description": "NetCommons - Software from Japan",
+        "status": {
+          "is_active": false,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 405
+        }
+      },
+      {
+        "id": "genially",
+        "name": "Genially",
+        "region": "Southern Europe",
+        "country": "Spain",
+        "url": "https://genial.ly/",
+        "description": "Genially - Software from Spain",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "moovit",
+        "name": "Moovit",
+        "region": "Middle East",
+        "country": "Israel",
+        "url": "https://moovitapp.com/",
+        "description": "Moovit - Software from Israel",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "averion-tms",
+        "name": "Averion TMS",
+        "region": "Western Europe",
+        "country": "United Kingdom",
+        "url": "https://www.averion.co.uk",
+        "description": "Averion TMS - Software from United Kingdom",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "tv-no-tomo-channel",
+        "name": "TV no Tomo Channel",
+        "region": "East Asia",
+        "country": "Japan",
+        "url": "https://www.nintendo.co.jp/wii/features/tv_no_tomo/",
+        "description": "TV no Tomo Channel - Software from Japan",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "acunetix",
+        "name": "Acunetix",
+        "region": "Southern Europe",
+        "country": "Malta",
+        "url": "https://www.acunetix.com",
+        "description": "Acunetix - Software from Malta",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "payrails",
+        "name": "Payrails",
+        "region": "Western Europe",
+        "country": "Germany",
+        "url": "https://www.payrails.com",
+        "description": "Payrails - Software from Germany",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "etcher",
+        "name": "Etcher",
+        "region": "Western Europe",
+        "country": "United Kingdom",
+        "url": "https://etcher.balena.io/",
+        "description": "Etcher - Software from United Kingdom",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "digicam-print-channel",
+        "name": "Digicam Print Channel",
+        "region": "East Asia",
+        "country": "Japan",
+        "url": "https://www.nintendo.co.jp/wii/features/wii_channel.html#digicame_print/",
+        "description": "Digicam Print Channel - Software from Japan",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "yanosik",
+        "name": "Yanosik",
+        "region": "Central Europe",
+        "country": "Poland",
+        "url": "https://yanosik.pl/",
+        "description": "Yanosik - Software from Poland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "the-nooj-kiswahili-module",
+        "name": "THE NooJ KISWAHILI MODULE",
+        "region": "Western Europe",
+        "country": "France",
+        "url": "https://archive.softwareheritage.org/browse/directory/c4f7813b47d86b9c4604c083fc8fa8c5b43892fe/",
+        "description": "THE NooJ KISWAHILI MODULE - Software from France",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "fronter",
+        "name": "Fronter",
+        "region": "Northern Europe",
+        "country": "Norway",
+        "url": "https://fronter.no",
+        "description": "Fronter - Software from Norway",
+        "status": {
+          "is_active": false,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 0
+        }
+      },
+      {
+        "id": "wii-no-ma",
+        "name": "Wii no Ma",
+        "region": "East Asia",
+        "country": "Japan",
+        "url": "https://www.nintendo.co.jp/wii/features/wii_channel.html#WiiNoMa",
+        "description": "Wii no Ma - Software from Japan",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "pitchy-software",
+        "name": "Pitchy software",
+        "region": "Western Europe",
+        "country": "France",
+        "url": "https://www.pitchy.io/",
+        "description": "Pitchy software - Software from France",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "babylon",
+        "name": "Babylon",
+        "region": "Middle East",
+        "country": "Israel",
+        "url": "http://babylon-software.com/",
+        "description": "Babylon - Software from Israel",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "ellty",
+        "name": "Ellty",
+        "region": "Oceania",
+        "country": "Australia",
+        "url": "https://www.ellty.com",
+        "description": "Ellty - Software from Australia",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "nanitor",
+        "name": "Nanitor",
+        "region": "Northern Europe",
+        "country": "Iceland",
+        "url": "https://nanitor.com",
+        "description": "Nanitor - Software from Iceland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "ben-and-ed",
+        "name": "Ben and Ed",
+        "region": "Western Europe",
+        "country": "Germany",
+        "url": "http://www.BenAndEd.com",
+        "description": "Ben and Ed - Software from Germany",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "amos",
+        "name": "AMOS",
+        "region": "Western Europe",
+        "country": "Switzerland",
+        "url": "https://www.swiss-as.com/amos-mro",
+        "description": "AMOS - Software from Switzerland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "wartile",
+        "name": "Wartile",
+        "region": "Northern Europe",
+        "country": "Denmark",
+        "url": "http://www.wartile.com/",
+        "description": "Wartile - Software from Denmark",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "valo-cd",
+        "name": "VALO-CD",
+        "region": "Northern Europe",
+        "country": "Finland",
+        "url": "http://www.valo-cd.fi/",
+        "description": "VALO-CD - Software from Finland",
+        "status": {
+          "is_active": false,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 408
+        }
+      },
+      {
+        "id": "lyro",
+        "name": "Lyro",
+        "region": "Central Europe",
+        "country": "Poland",
+        "url": "https://www.tidio.com/ai-agent/",
+        "description": "Lyro - Software from Poland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "chess-tiger",
+        "name": "Chess Tiger",
+        "region": "Western Europe",
+        "country": "France",
+        "url": "http://www.chessbase.com/",
+        "description": "Chess Tiger - Software from France",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "mobilepay",
+        "name": "MobilePay",
+        "region": "Northern Europe",
+        "country": "Denmark",
+        "url": "https://mobilepay.dk/",
+        "description": "MobilePay - Software from Denmark",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "hidemaru-editor",
+        "name": "Hidemaru Editor",
+        "region": "East Asia",
+        "country": "Japan",
+        "url": "https://hide.maruo.co.jp/",
+        "description": "Hidemaru Editor - Software from Japan",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "geodin",
+        "name": "GeODin",
+        "region": "Western Europe",
+        "country": "Germany",
+        "url": "https://www.geodin.com/de",
+        "description": "GeODin - Software from Germany",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "nintendo-switch-online",
+        "name": "Nintendo Switch Online",
+        "region": "East Asia",
+        "country": "Japan",
+        "url": "https://www.nintendo.co.jp/hardware/switch/onlineservice/",
+        "description": "Nintendo Switch Online - Software from Japan",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "gigantic-army",
+        "name": "Gigantic Army",
+        "region": "East Asia",
+        "country": "Japan",
+        "url": "http://giganticarmy.com",
+        "description": "Gigantic Army - Software from Japan",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "bob-came-in-pieces",
+        "name": "Bob Came in Pieces",
+        "region": "Northern Europe",
+        "country": "Sweden",
+        "url": "http://www.ludosity.com/games/bob",
+        "description": "Bob Came in Pieces - Software from Sweden",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "custom-cast",
+        "name": "CUSTOM CAST",
+        "region": "East Asia",
+        "country": "Japan",
+        "url": "https://customcast.jp/",
+        "description": "CUSTOM CAST - Software from Japan",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "alpakalent",
+        "name": "Alpakalent",
+        "region": "Western Europe",
+        "country": "Germany",
+        "url": "https://alpakalent.com",
+        "description": "Alpakalent - Software from Germany",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "ai-endurance",
+        "name": "AI Endurance",
+        "region": "North America",
+        "country": "Canada",
+        "url": "https://aiendurance.com",
+        "description": "AI Endurance - Software from Canada",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "helpdesk",
+        "name": "HelpDesk",
+        "region": "Central Europe",
+        "country": "Poland",
+        "url": "https://www.helpdesk.com",
+        "description": "HelpDesk - Software from Poland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "pixel-game-maker-mv",
+        "name": "Pixel Game Maker MV",
+        "region": "East Asia",
+        "country": "Japan",
+        "url": "https://tkool.jp/act/",
+        "description": "Pixel Game Maker MV - Software from Japan",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "butterflai-art",
+        "name": "ButterflAI Art",
+        "region": "Southern Europe",
+        "country": "Spain",
+        "url": "https://butterflai.pro",
+        "description": "ButterflAI Art - Software from Spain",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "customerhero",
+        "name": "CustomerHero",
+        "region": "Central Europe",
+        "country": "Poland",
+        "url": "https://www.customerhero.com/",
+        "description": "CustomerHero - Software from Poland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "avalon-the-legend-lives",
+        "name": "Avalon: The Legend Lives",
+        "region": "Western Europe",
+        "country": "United Kingdom",
+        "url": "http://www.avalon-rpg.com",
+        "description": "Avalon: The Legend Lives - Software from United Kingdom",
+        "status": {
+          "is_active": false,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 0
+        }
+      },
+      {
+        "id": "decodoku",
+        "name": "Decodoku",
+        "region": "Western Europe",
+        "country": "Switzerland",
+        "url": "https://www.decodoku.com/",
+        "description": "Decodoku - Software from Switzerland",
+        "status": {
+          "is_active": false,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 404
+        }
+      },
+      {
+        "id": "everybody-votes-channel",
+        "name": "Everybody Votes Channel",
+        "region": "East Asia",
+        "country": "Japan",
+        "url": "https://www.nintendo.co.jp/wii/features/poll/",
+        "description": "Everybody Votes Channel - Software from Japan",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "transocean-the-shipping-company",
+        "name": "TransOcean: The Shipping Company",
+        "region": "Western Europe",
+        "country": "Germany",
+        "url": "http://www.transocean-game.com",
+        "description": "TransOcean: The Shipping Company - Software from Germany",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        }
+      },
+      {
+        "id": "albumforge",
+        "name": "AlbumForge",
+        "region": "Western Europe",
+        "country": "France",
+        "url": "https://www.albumforge.com",
+        "description": "AlbumForge - Software from France",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
         }
       }
