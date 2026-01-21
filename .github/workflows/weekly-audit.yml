@@ -1,0 +1,49 @@
+name: Weekly Service Health Check
+
+on:
+  schedule:
+    # Run every Monday at midnight UTC
+    - cron: '0 0 * * 1'
+  workflow_dispatch:
+    # Allow manual trigger from GitHub UI
+
+jobs:
+  validate-services:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run service validation
+        run: node scripts/validate_services.js
+
+      - name: Check for changes
+        id: changes
+        run: |
+          if git diff --quiet src/data/services.json; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit and push changes
+        if: steps.changes.outputs.changed == 'true'
+        run: |
+          git config user.name "GitHub Action Bot"
+          git config user.email "action@github.com"
+          git add src/data/services.json
+          git commit -m "🤖 Weekly Health Check: Updated service status"
+          git push
