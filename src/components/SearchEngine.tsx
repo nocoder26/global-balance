@@ -1,7 +1,18 @@
 import { useState, useMemo } from 'react';
 import Fuse from 'fuse.js';
 import { formatDistanceToNow } from 'date-fns';
-import { Search, CheckCircle2, ExternalLink, Globe } from 'lucide-react';
+import {
+  Search,
+  CheckCircle2,
+  ExternalLink,
+  Globe,
+  MessageCircle,
+  Briefcase,
+  CarFront,
+  Server,
+  Play,
+  Star,
+} from 'lucide-react';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
 
@@ -9,6 +20,10 @@ interface Status {
   is_active: boolean;
   last_checked: string | null;
   http_code: number;
+}
+
+interface TrustData {
+  trustpilot_status: 'unchecked' | 'verified' | 'unverified';
 }
 
 interface Innovator {
@@ -19,10 +34,12 @@ interface Innovator {
   url: string;
   description: string;
   status: Status;
+  trust_data?: TrustData;
 }
 
 interface Category {
   category: string;
+  icon?: string;
   incumbent: { name: string; hq: string };
   innovators: Innovator[];
 }
@@ -30,6 +47,17 @@ interface Category {
 interface SearchEngineProps {
   data: Category[];
 }
+
+// Icon map for categories
+const iconMap: Record<string, React.ElementType> = {
+  'Communication': MessageCircle,
+  'Productivity & Tools': Briefcase,
+  'Social': Globe,
+  'Information & Browsers': Search,
+  'Electric Vehicles': CarFront,
+  'Cloud Infrastructure': Server,
+  'Entertainment': Play,
+};
 
 // Country to flag emoji mapping
 function getCountryFlag(country: string): string {
@@ -131,6 +159,12 @@ export default function SearchEngine({ data }: SearchEngineProps) {
     }
   };
 
+  // Get category icon component
+  const getCategoryIcon = (categoryName: string) => {
+    const IconComponent = iconMap[categoryName] || Globe;
+    return <IconComponent className="w-3 h-3" />;
+  };
+
   return (
     <div className="w-full max-w-6xl mx-auto px-4">
       {/* Search Input */}
@@ -229,16 +263,24 @@ export default function SearchEngine({ data }: SearchEngineProps) {
             {/* Category Tag */}
             <div className="flex items-center gap-2 mb-3">
               <span className="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-teal-100/80 text-teal-700 text-xs font-medium">
-                <Globe className="w-3 h-3" />
+                {getCategoryIcon(innovator.categoryName)}
                 {innovator.categoryName}
               </span>
               <span className="text-xs text-teal-600/60">{innovator.region}</span>
             </div>
 
-            {/* Verification Badge */}
-            <div className="flex items-center gap-1.5 text-xs text-emerald-600">
-              <CheckCircle2 className="w-4 h-4" />
-              <span>{getVerifiedText(innovator.status.last_checked)}</span>
+            {/* Verification Badges */}
+            <div className="flex items-center gap-3">
+              <div className="flex items-center gap-1.5 text-xs text-emerald-600">
+                <CheckCircle2 className="w-4 h-4" />
+                <span>{getVerifiedText(innovator.status.last_checked)}</span>
+              </div>
+              {innovator.trust_data?.trustpilot_status === 'verified' && (
+                <div className="flex items-center gap-1 text-xs text-green-600">
+                  <Star className="w-3.5 h-3.5 fill-green-500 text-green-500" />
+                  <span>Verified</span>
+                </div>
+              )}
             </div>
           </a>
         ))}

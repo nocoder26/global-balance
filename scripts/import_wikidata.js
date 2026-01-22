@@ -57,8 +57,6 @@ const LIBERAL_DEMOCRACIES = {
   'Q16': 'Canada',
   'Q77': 'Uruguay',
   'Q800': 'Costa Rica',
-  // Other established democracies
-  'Q801': 'Israel',
 };
 
 // Build SPARQL VALUES clause for liberal democracies

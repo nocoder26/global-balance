@@ -1,28 +1,7 @@
 [
   {
-    "category": "Cloud Storage",
-    "incumbent": {
-      "name": "Various",
-      "hq": "USA"
-    },
-    "innovators": [
-      {
-        "id": "cloudron",
-        "name": "Cloudron",
-        "region": "Western Europe",
-        "country": "Germany",
-        "url": "https://www.cloudron.io",
-        "description": "Cloudron - Software from Germany",
-        "status": {
-          "is_active": true,
-          "last_checked": "2026-01-21T14:29:55.162Z",
-          "http_code": 200
-        }
-      }
-    ]
-  },
-  {
-    "category": "Email",
+    "category": "Communication",
+    "icon": "MessageCircle",
     "incumbent": {
       "name": "Various",
       "hq": "USA"
@@ -39,17 +18,11 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
-      }
-    ]
-  },
-  {
-    "category": "Messaging",
-    "incumbent": {
-      "name": "Various",
-      "hq": "USA"
-    },
-    "innovators": [
+      },
       {
         "id": "wii-message-board",
         "name": "Wii Message Board",
@@ -61,6 +34,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -74,6 +50,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -87,17 +66,37 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       }
     ]
   },
   {
-    "category": "Software",
+    "category": "Productivity & Tools",
+    "icon": "Briefcase",
     "incumbent": {
       "name": "Various",
       "hq": "USA"
     },
     "innovators": [
+      {
+        "id": "cloudron",
+        "name": "Cloudron",
+        "region": "Western Europe",
+        "country": "Germany",
+        "url": "https://www.cloudron.io",
+        "description": "Cloudron - Software from Germany",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-21T14:29:55.162Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
+        }
+      },
       {
         "id": "quantum-moves",
         "name": "Quantum Moves",
@@ -109,6 +108,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -122,6 +124,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -135,6 +140,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -148,6 +156,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -161,6 +172,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -174,6 +188,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -187,6 +204,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -200,6 +220,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -213,6 +236,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 247
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -226,6 +252,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -239,6 +268,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -252,6 +284,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -265,6 +300,9 @@
           "is_active": false,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 405
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -278,6 +316,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -291,6 +332,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -304,6 +348,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -317,6 +364,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -330,6 +380,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -343,6 +396,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -356,6 +412,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -369,6 +428,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -382,6 +444,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -395,6 +460,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -408,6 +476,9 @@
           "is_active": false,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 0
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -421,6 +492,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -434,6 +508,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -447,6 +524,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -460,6 +540,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -473,6 +556,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -486,6 +572,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -499,6 +588,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -512,6 +604,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -525,6 +620,9 @@
           "is_active": false,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 408
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -538,6 +636,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -551,6 +652,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -564,6 +668,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -577,6 +684,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -590,6 +700,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -603,6 +716,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -616,6 +732,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -629,6 +748,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -642,6 +764,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -655,6 +780,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -668,6 +796,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -681,6 +812,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -694,6 +828,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -707,6 +844,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -720,6 +860,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -733,6 +876,9 @@
           "is_active": false,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 0
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       },
       {
@@ -746,6 +892,9 @@
           "is_active": false,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 404
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -759,6 +908,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -772,6 +924,9 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
         }
       },
       {
@@ -785,6 +940,137 @@
           "is_active": true,
           "last_checked": "2026-01-21T14:29:55.162Z",
           "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "unverified"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Social",
+    "icon": "Globe",
+    "incumbent": {
+      "name": "Various",
+      "hq": "USA"
+    },
+    "innovators": []
+  },
+  {
+    "category": "Information & Browsers",
+    "icon": "Search",
+    "incumbent": {
+      "name": "Various",
+      "hq": "USA"
+    },
+    "innovators": []
+  },
+  {
+    "category": "Electric Vehicles",
+    "icon": "CarFront",
+    "incumbent": {
+      "name": "Tesla",
+      "hq": "USA"
+    },
+    "innovators": [
+      {
+        "id": "polestar",
+        "name": "Polestar",
+        "region": "Northern Europe",
+        "country": "Sweden",
+        "url": "https://www.polestar.com",
+        "description": "Polestar - Premium electric performance cars from Sweden",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T00:00:00.000Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
+        }
+      },
+      {
+        "id": "hyundai-ioniq",
+        "name": "Hyundai Ioniq",
+        "region": "East Asia",
+        "country": "South Korea",
+        "url": "https://www.hyundai.com/worldwide/en/eco/ioniq",
+        "description": "Hyundai Ioniq - Electric vehicle lineup from Korea",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T00:00:00.000Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Cloud Infrastructure",
+    "icon": "Server",
+    "incumbent": {
+      "name": "AWS",
+      "hq": "USA"
+    },
+    "innovators": [
+      {
+        "id": "hetzner",
+        "name": "Hetzner",
+        "region": "Western Europe",
+        "country": "Germany",
+        "url": "https://www.hetzner.com",
+        "description": "Hetzner - Reliable cloud and dedicated hosting from Germany",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T00:00:00.000Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
+        }
+      },
+      {
+        "id": "scaleway",
+        "name": "Scaleway",
+        "region": "Western Europe",
+        "country": "France",
+        "url": "https://www.scaleway.com",
+        "description": "Scaleway - European cloud infrastructure from France",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T00:00:00.000Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
+        }
+      }
+    ]
+  },
+  {
+    "category": "Entertainment",
+    "icon": "Play",
+    "incumbent": {
+      "name": "Netflix",
+      "hq": "USA"
+    },
+    "innovators": [
+      {
+        "id": "dailymotion",
+        "name": "Dailymotion",
+        "region": "Western Europe",
+        "country": "France",
+        "url": "https://www.dailymotion.com",
+        "description": "Dailymotion - Video sharing platform from France",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T00:00:00.000Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "trustpilot_status": "verified"
         }
       }
     ]
