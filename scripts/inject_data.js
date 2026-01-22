@@ -14,30 +14,18 @@ const newTrustData = {
 
 const newInnovators = {
   "Communication": [
-    { id: "line", name: "Line", region: "East Asia", country: "Japan", url: "https://line.me", description: "Line - Messaging app from Japan" },
-    { id: "rakuten-viber", name: "Rakuten Viber", region: "Western Europe", country: "Luxembourg", url: "https://www.viber.com", description: "Viber - Messaging app owned by Rakuten" },
-    { id: "fastmail", name: "Fastmail", region: "Oceania", country: "Australia", url: "https://www.fastmail.com", description: "Fastmail - Private email from Australia" }
+    { id: "element", name: "Element", region: "Western Europe", country: "United Kingdom", url: "https://element.io", description: "Element - Secure messaging with Matrix protocol" }
   ],
   "Productivity & Tools": [
-    { id: "canva", name: "Canva", region: "Oceania", country: "Australia", url: "https://www.canva.com", description: "Canva - Design platform from Australia" },
-    { id: "zoho", name: "Zoho", region: "South Asia", country: "India", url: "https://www.zoho.com", description: "Zoho - Business software suite from India" },
-    { id: "atlassian", name: "Atlassian", region: "Oceania", country: "Australia", url: "https://www.atlassian.com", description: "Atlassian - Jira, Confluence from Australia" }
-  ],
-  "Social": [
-    { id: "mastodon", name: "Mastodon", region: "Western Europe", country: "Germany", url: "https://joinmastodon.org", description: "Mastodon - Decentralized social network from Germany" },
-    { id: "bluesky", name: "Bluesky", region: "North America", country: "USA", url: "https://bsky.app", description: "Bluesky - Public Benefit social network" },
-    { id: "koo", name: "Koo", region: "South Asia", country: "India", url: "https://www.kooapp.com", description: "Koo - Social platform from India" }
-  ],
-  "Electric Vehicles": [
-    { id: "tata-ev", name: "Tata Motors EV", region: "South Asia", country: "India", url: "https://ev.tatamotors.com", description: "Tata Motors - Leading EV manufacturer from India" },
-    { id: "ola-electric", name: "Ola Electric", region: "South Asia", country: "India", url: "https://www.olaelectric.com", description: "Ola Electric - Electric scooters from India" }
+    { id: "clio", name: "Clio", region: "North America", country: "Canada", url: "https://www.clio.com", description: "Clio - Legal practice management from Canada" },
+    { id: "hootsuite", name: "Hootsuite", region: "North America", country: "Canada", url: "https://www.hootsuite.com", description: "Hootsuite - Social media management from Canada" },
+    { id: "vidyard", name: "Vidyard", region: "North America", country: "Canada", url: "https://www.vidyard.com", description: "Vidyard - Video hosting platform from Canada" }
   ],
   "E-Commerce": [
-    { id: "mercado-libre", name: "Mercado Libre", region: "South America", country: "Argentina", url: "https://www.mercadolibre.com", description: "Mercado Libre - E-commerce giant from Argentina" },
-    { id: "rakuten", name: "Rakuten", region: "East Asia", country: "Japan", url: "https://www.rakuten.co.jp", description: "Rakuten - E-commerce and fintech from Japan" },
-    { id: "flipkart", name: "Flipkart", region: "South Asia", country: "India", url: "https://www.flipkart.com", description: "Flipkart - E-commerce platform from India" },
-    { id: "jumia", name: "Jumia", region: "Africa", country: "Nigeria", url: "https://www.jumia.com.ng", description: "Jumia - E-commerce platform from Africa" },
-    { id: "allegro", name: "Allegro", region: "Central Europe", country: "Poland", url: "https://allegro.pl", description: "Allegro - E-commerce platform from Poland" }
+    { id: "shopify", name: "Shopify", region: "North America", country: "Canada", url: "https://www.shopify.com", description: "Shopify - E-commerce platform from Canada" }
+  ],
+  "Cloud Infrastructure": [
+    { id: "digitalocean", name: "DigitalOcean", region: "North America", country: "Canada", url: "https://www.digitalocean.com", description: "DigitalOcean - Cloud infrastructure with global presence" }
   ]
 };
 
