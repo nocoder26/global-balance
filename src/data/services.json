@@ -24,7 +24,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q121140358",
-          "last_checked": "2026-01-22T16:11:16.233Z"
+          "last_checked": "2026-01-22T16:17:51.641Z"
         }
       },
       {
@@ -44,7 +44,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q11254349",
-          "last_checked": "2026-01-22T16:11:18.650Z"
+          "last_checked": "2026-01-22T16:17:54.017Z"
         }
       },
       {
@@ -64,7 +64,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q870780",
-          "last_checked": "2026-01-22T16:11:20.226Z"
+          "last_checked": "2026-01-22T16:17:55.637Z"
         }
       },
       {
@@ -84,7 +84,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q1763653",
-          "last_checked": "2026-01-22T16:11:21.799Z"
+          "last_checked": "2026-01-22T16:17:57.162Z"
         }
       },
       {
@@ -104,7 +104,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q24192975",
-          "last_checked": "2026-01-22T16:11:23.394Z"
+          "last_checked": "2026-01-22T16:17:58.781Z"
         }
       },
       {
@@ -124,7 +124,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "unverified",
           "wikidata_id": null,
-          "last_checked": "2026-01-22T16:11:24.779Z"
+          "last_checked": "2026-01-22T16:18:00.116Z"
         }
       },
       {
@@ -144,7 +144,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q5965663",
-          "last_checked": "2026-01-22T16:11:28.100Z"
+          "last_checked": "2026-01-22T16:18:03.980Z"
         }
       },
       {
@@ -164,7 +164,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q75356",
-          "last_checked": "2026-01-22T16:11:29.500Z"
+          "last_checked": "2026-01-22T16:18:05.582Z"
         }
       },
       {
@@ -184,7 +184,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q1006504",
-          "last_checked": "2026-01-22T16:11:30.889Z"
+          "last_checked": "2026-01-22T16:18:07.123Z"
         }
       },
       {
@@ -204,7 +204,47 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q11344",
-          "last_checked": "2026-01-22T16:11:33.200Z"
+          "last_checked": "2026-01-22T16:18:08.707Z"
+        }
+      },
+      {
+        "id": "tutanota",
+        "name": "Tuta",
+        "region": "Western Europe",
+        "country": "Germany",
+        "url": "https://tuta.com",
+        "description": "Tuta - Encrypted email from Germany",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.673Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q21659489",
+          "last_checked": "2026-01-22T16:18:10.811Z"
+        }
+      },
+      {
+        "id": "threema",
+        "name": "Threema",
+        "region": "Western Europe",
+        "country": "Switzerland",
+        "url": "https://threema.ch",
+        "description": "Threema - Private messenger from Switzerland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q13512316",
+          "last_checked": "2026-01-22T16:18:13.701Z"
         }
       }
     ]
@@ -234,7 +274,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q130299941",
-          "last_checked": "2026-01-22T16:11:34.906Z"
+          "last_checked": "2026-01-22T16:18:16.063Z"
         }
       },
       {
@@ -254,7 +294,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q23498528",
-          "last_checked": "2026-01-22T16:11:36.691Z"
+          "last_checked": "2026-01-22T16:18:17.618Z"
         }
       },
       {
@@ -274,7 +314,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q8063247",
-          "last_checked": "2026-01-22T16:11:38.407Z"
+          "last_checked": "2026-01-22T16:18:19.187Z"
         }
       },
       {
@@ -294,7 +334,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q757307",
-          "last_checked": "2026-01-22T16:11:50.833Z"
+          "last_checked": "2026-01-22T16:18:21.284Z"
         }
       },
       {
@@ -314,7 +354,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q37041592",
-          "last_checked": "2026-01-22T16:11:52.217Z"
+          "last_checked": "2026-01-22T16:18:23.391Z"
         }
       },
       {
@@ -325,16 +365,16 @@
         "url": "https://www.gojek.com",
         "description": "Gojek - Multi-service platform from Indonesia",
         "status": {
-          "is_active": false,
+          "is_active": true,
           "last_checked": "2026-01-22T00:00:00.000Z",
           "http_code": 200
         },
         "trust_data": {
-          "website_status": "inactive",
+          "website_status": "active",
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q20426955",
-          "last_checked": "2026-01-22T16:12:08.290Z"
+          "last_checked": "2026-01-22T16:18:27.427Z"
         }
       },
       {
@@ -354,7 +394,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q109985545",
-          "last_checked": "2026-01-22T16:12:09.775Z"
+          "last_checked": "2026-01-22T16:18:28.853Z"
         }
       },
       {
@@ -374,7 +414,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q16254894",
-          "last_checked": "2026-01-22T16:12:11.620Z"
+          "last_checked": "2026-01-22T16:18:30.215Z"
         }
       },
       {
@@ -394,7 +434,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q686663",
-          "last_checked": "2026-01-22T16:12:13.187Z"
+          "last_checked": "2026-01-22T16:18:31.633Z"
         }
       },
       {
@@ -414,7 +454,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q135224227",
-          "last_checked": "2026-01-22T16:12:14.638Z"
+          "last_checked": "2026-01-22T16:18:33.073Z"
         }
       },
       {
@@ -434,7 +474,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q130267033",
-          "last_checked": "2026-01-22T16:12:16.651Z"
+          "last_checked": "2026-01-22T16:18:34.826Z"
         }
       },
       {
@@ -454,7 +494,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q108535960",
-          "last_checked": "2026-01-22T16:12:18.162Z"
+          "last_checked": "2026-01-22T16:18:36.489Z"
         }
       },
       {
@@ -474,7 +514,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q136994735",
-          "last_checked": "2026-01-22T16:12:19.526Z"
+          "last_checked": "2026-01-22T16:18:37.914Z"
         }
       },
       {
@@ -494,7 +534,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q1416067",
-          "last_checked": "2026-01-22T16:12:21.069Z"
+          "last_checked": "2026-01-22T16:18:39.423Z"
         }
       },
       {
@@ -514,7 +554,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q111610305",
-          "last_checked": "2026-01-22T16:12:22.623Z"
+          "last_checked": "2026-01-22T16:18:40.946Z"
         }
       },
       {
@@ -534,7 +574,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q123904884",
-          "last_checked": "2026-01-22T16:12:24.196Z"
+          "last_checked": "2026-01-22T16:18:42.336Z"
         }
       },
       {
@@ -554,7 +594,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q19881614",
-          "last_checked": "2026-01-22T16:12:25.824Z"
+          "last_checked": "2026-01-22T16:18:44.027Z"
         }
       },
       {
@@ -574,7 +614,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q126287896",
-          "last_checked": "2026-01-22T16:12:27.958Z"
+          "last_checked": "2026-01-22T16:18:46.239Z"
         }
       },
       {
@@ -594,7 +634,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q136087176",
-          "last_checked": "2026-01-22T16:12:29.332Z"
+          "last_checked": "2026-01-22T16:18:47.549Z"
         }
       },
       {
@@ -614,7 +654,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q11236486",
-          "last_checked": "2026-01-22T16:12:31.947Z"
+          "last_checked": "2026-01-22T16:18:49.600Z"
         }
       },
       {
@@ -634,7 +674,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q57977122",
-          "last_checked": "2026-01-22T16:12:33.665Z"
+          "last_checked": "2026-01-22T16:18:51.184Z"
         }
       },
       {
@@ -654,7 +694,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q16336073",
-          "last_checked": "2026-01-22T16:12:35.030Z"
+          "last_checked": "2026-01-22T16:18:52.503Z"
         }
       },
       {
@@ -674,7 +714,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q136744732",
-          "last_checked": "2026-01-22T16:12:37.859Z"
+          "last_checked": "2026-01-22T16:18:56.091Z"
         }
       },
       {
@@ -694,7 +734,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q11319532",
-          "last_checked": "2026-01-22T16:12:40.200Z"
+          "last_checked": "2026-01-22T16:18:58.513Z"
         }
       },
       {
@@ -714,7 +754,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q60168780",
-          "last_checked": "2026-01-22T16:12:41.881Z"
+          "last_checked": "2026-01-22T16:19:00.085Z"
         }
       },
       {
@@ -734,7 +774,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q137211152",
-          "last_checked": "2026-01-22T16:12:43.294Z"
+          "last_checked": "2026-01-22T16:19:01.480Z"
         }
       },
       {
@@ -754,7 +794,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q10862983",
-          "last_checked": "2026-01-22T16:12:44.828Z"
+          "last_checked": "2026-01-22T16:19:02.977Z"
         }
       },
       {
@@ -774,7 +814,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q10266307",
-          "last_checked": "2026-01-22T16:12:47.145Z"
+          "last_checked": "2026-01-22T16:19:04.527Z"
         }
       },
       {
@@ -794,7 +834,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q37128893",
-          "last_checked": "2026-01-22T16:12:48.653Z"
+          "last_checked": "2026-01-22T16:19:06.054Z"
         }
       },
       {
@@ -814,7 +854,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q136647497",
-          "last_checked": "2026-01-22T16:12:50.126Z"
+          "last_checked": "2026-01-22T16:19:07.608Z"
         }
       },
       {
@@ -834,7 +874,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q37486478",
-          "last_checked": "2026-01-22T16:12:51.682Z"
+          "last_checked": "2026-01-22T16:19:08.899Z"
         }
       },
       {
@@ -854,7 +894,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q3284046",
-          "last_checked": "2026-01-22T16:12:53.036Z"
+          "last_checked": "2026-01-22T16:19:10.386Z"
         }
       },
       {
@@ -874,7 +914,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q136979949",
-          "last_checked": "2026-01-22T16:12:55.328Z"
+          "last_checked": "2026-01-22T16:19:12.379Z"
         }
       },
       {
@@ -894,7 +934,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q1750870",
-          "last_checked": "2026-01-22T16:12:57.946Z"
+          "last_checked": "2026-01-22T16:19:15.078Z"
         }
       },
       {
@@ -914,7 +954,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q137716180",
-          "last_checked": "2026-01-22T16:12:59.391Z"
+          "last_checked": "2026-01-22T16:19:16.584Z"
         }
       },
       {
@@ -934,7 +974,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q134963806",
-          "last_checked": "2026-01-22T16:13:00.904Z"
+          "last_checked": "2026-01-22T16:19:18.163Z"
         }
       },
       {
@@ -954,7 +994,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q98971784",
-          "last_checked": "2026-01-22T16:13:02.475Z"
+          "last_checked": "2026-01-22T16:19:19.519Z"
         }
       },
       {
@@ -974,7 +1014,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q18216060",
-          "last_checked": "2026-01-22T16:13:04.049Z"
+          "last_checked": "2026-01-22T16:19:20.893Z"
         }
       },
       {
@@ -994,7 +1034,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q106635430",
-          "last_checked": "2026-01-22T16:13:08.620Z"
+          "last_checked": "2026-01-22T16:19:22.490Z"
         }
       },
       {
@@ -1014,7 +1054,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q4052486",
-          "last_checked": "2026-01-22T16:13:20.481Z"
+          "last_checked": "2026-01-22T16:19:34.402Z"
         }
       },
       {
@@ -1034,7 +1074,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q133573942",
-          "last_checked": "2026-01-22T16:13:21.876Z"
+          "last_checked": "2026-01-22T16:19:35.761Z"
         }
       },
       {
@@ -1054,7 +1094,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q2157532",
-          "last_checked": "2026-01-22T16:13:23.528Z"
+          "last_checked": "2026-01-22T16:19:37.394Z"
         }
       },
       {
@@ -1074,7 +1114,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q16324144",
-          "last_checked": "2026-01-22T16:13:25.022Z"
+          "last_checked": "2026-01-22T16:19:38.792Z"
         }
       },
       {
@@ -1094,7 +1134,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q11594517",
-          "last_checked": "2026-01-22T16:13:28.185Z"
+          "last_checked": "2026-01-22T16:19:41.162Z"
         }
       },
       {
@@ -1114,7 +1154,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q105157309",
-          "last_checked": "2026-01-22T16:13:29.554Z"
+          "last_checked": "2026-01-22T16:19:42.557Z"
         }
       },
       {
@@ -1134,7 +1174,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q30943865",
-          "last_checked": "2026-01-22T16:13:31.383Z"
+          "last_checked": "2026-01-22T16:19:44.368Z"
         }
       },
       {
@@ -1154,7 +1194,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q74250971",
-          "last_checked": "2026-01-22T16:13:32.903Z"
+          "last_checked": "2026-01-22T16:19:45.884Z"
         }
       },
       {
@@ -1174,7 +1214,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q119952229",
-          "last_checked": "2026-01-22T16:13:34.465Z"
+          "last_checked": "2026-01-22T16:19:47.274Z"
         }
       },
       {
@@ -1194,7 +1234,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q60986526",
-          "last_checked": "2026-01-22T16:13:36.926Z"
+          "last_checked": "2026-01-22T16:19:49.655Z"
         }
       },
       {
@@ -1214,7 +1254,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q134612381",
-          "last_checked": "2026-01-22T16:13:38.436Z"
+          "last_checked": "2026-01-22T16:19:51.131Z"
         }
       },
       {
@@ -1234,7 +1274,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q134700883",
-          "last_checked": "2026-01-22T16:13:40.417Z"
+          "last_checked": "2026-01-22T16:19:52.862Z"
         }
       },
       {
@@ -1254,7 +1294,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q125939905",
-          "last_checked": "2026-01-22T16:13:41.856Z"
+          "last_checked": "2026-01-22T16:19:54.456Z"
         }
       },
       {
@@ -1274,7 +1314,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q10846413",
-          "last_checked": "2026-01-22T16:13:44.077Z"
+          "last_checked": "2026-01-22T16:19:56.712Z"
         }
       },
       {
@@ -1294,7 +1334,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q131537819",
-          "last_checked": "2026-01-22T16:13:45.723Z"
+          "last_checked": "2026-01-22T16:19:58.286Z"
         }
       },
       {
@@ -1314,7 +1354,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q134955293",
-          "last_checked": "2026-01-22T16:13:47.097Z"
+          "last_checked": "2026-01-22T16:19:59.638Z"
         }
       },
       {
@@ -1334,7 +1374,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q18589136",
-          "last_checked": "2026-01-22T16:13:49.143Z"
+          "last_checked": "2026-01-22T16:20:01.483Z"
         }
       },
       {
@@ -1354,7 +1394,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q28135096",
-          "last_checked": "2026-01-22T16:13:51.242Z"
+          "last_checked": "2026-01-22T16:20:03.009Z"
         }
       },
       {
@@ -1374,7 +1414,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q3282596",
-          "last_checked": "2026-01-22T16:13:53.864Z"
+          "last_checked": "2026-01-22T16:20:05.356Z"
         }
       },
       {
@@ -1394,7 +1434,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q119952215",
-          "last_checked": "2026-01-22T16:13:55.436Z"
+          "last_checked": "2026-01-22T16:20:07.410Z"
         }
       },
       {
@@ -1414,7 +1454,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q135900722",
-          "last_checked": "2026-01-22T16:13:56.881Z"
+          "last_checked": "2026-01-22T16:20:08.775Z"
         }
       },
       {
@@ -1434,7 +1474,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q5059304",
-          "last_checked": "2026-01-22T16:14:01.204Z"
+          "last_checked": "2026-01-22T16:20:11.232Z"
         }
       },
       {
@@ -1454,7 +1494,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q2749075",
-          "last_checked": "2026-01-22T16:14:03.544Z"
+          "last_checked": "2026-01-22T16:20:12.705Z"
         }
       },
       {
@@ -1474,7 +1514,107 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q7928214",
-          "last_checked": "2026-01-22T16:14:08.019Z"
+          "last_checked": "2026-01-22T16:20:14.541Z"
+        }
+      },
+      {
+        "id": "miro",
+        "name": "Miro",
+        "region": "Western Europe",
+        "country": "Netherlands",
+        "url": "https://miro.com",
+        "description": "Miro - Visual collaboration platform from Netherlands",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q3858893",
+          "last_checked": "2026-01-22T16:20:16.655Z"
+        }
+      },
+      {
+        "id": "pipedrive",
+        "name": "Pipedrive",
+        "region": "Northern Europe",
+        "country": "Estonia",
+        "url": "https://www.pipedrive.com",
+        "description": "Pipedrive - CRM from Estonia",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q24054211",
+          "last_checked": "2026-01-22T16:20:18.557Z"
+        }
+      },
+      {
+        "id": "typeform",
+        "name": "Typeform",
+        "region": "Southern Europe",
+        "country": "Spain",
+        "url": "https://www.typeform.com",
+        "description": "Typeform - Form builder from Spain",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q24910393",
+          "last_checked": "2026-01-22T16:20:20.317Z"
+        }
+      },
+      {
+        "id": "notion-like-craft",
+        "name": "Craft",
+        "region": "Central Europe",
+        "country": "Hungary",
+        "url": "https://www.craft.do",
+        "description": "Craft - Document editor from Hungary",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q28640",
+          "last_checked": "2026-01-22T16:20:22.256Z"
+        }
+      },
+      {
+        "id": "toggl",
+        "name": "Toggl",
+        "region": "Northern Europe",
+        "country": "Estonia",
+        "url": "https://toggl.com",
+        "description": "Toggl - Time tracking from Estonia",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q962420",
+          "last_checked": "2026-01-22T16:20:24.206Z"
         }
       }
     ]
@@ -1504,7 +1644,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q27986619",
-          "last_checked": "2026-01-22T16:14:09.431Z"
+          "last_checked": "2026-01-22T16:20:25.552Z"
         }
       },
       {
@@ -1524,7 +1664,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q78194383",
-          "last_checked": "2026-01-22T16:14:11.204Z"
+          "last_checked": "2026-01-22T16:20:27.170Z"
         }
       },
       {
@@ -1544,7 +1684,27 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q4151201",
-          "last_checked": "2026-01-22T16:14:12.643Z"
+          "last_checked": "2026-01-22T16:20:28.601Z"
+        }
+      },
+      {
+        "id": "minds",
+        "name": "Minds",
+        "region": "North America",
+        "country": "USA",
+        "url": "https://www.minds.com",
+        "description": "Minds - Open source social network",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q1570468",
+          "last_checked": "2026-01-22T16:20:30.512Z"
         }
       }
     ]
@@ -1556,7 +1716,68 @@
       "name": "Various",
       "hq": "USA"
     },
-    "innovators": []
+    "innovators": [
+      {
+        "id": "ecosia",
+        "name": "Ecosia",
+        "region": "Western Europe",
+        "country": "Germany",
+        "url": "https://www.ecosia.org",
+        "description": "Ecosia - Eco-friendly search engine from Germany",
+        "status": {
+          "is_active": false,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "inactive",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q1282139",
+          "last_checked": "2026-01-22T16:20:32.241Z"
+        }
+      },
+      {
+        "id": "brave",
+        "name": "Brave",
+        "region": "North America",
+        "country": "USA",
+        "url": "https://brave.com",
+        "description": "Brave - Privacy browser",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q126796",
+          "last_checked": "2026-01-22T16:20:34.149Z"
+        }
+      },
+      {
+        "id": "vivaldi",
+        "name": "Vivaldi",
+        "region": "Northern Europe",
+        "country": "Norway",
+        "url": "https://vivaldi.com",
+        "description": "Vivaldi - Customizable browser from Norway",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q37452514",
+          "last_checked": "2026-01-22T16:20:36.037Z"
+        }
+      }
+    ]
   },
   {
     "category": "Electric Vehicles",
@@ -1583,7 +1804,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q4047174",
-          "last_checked": "2026-01-22T16:14:14.414Z"
+          "last_checked": "2026-01-22T16:20:37.674Z"
         }
       },
       {
@@ -1603,7 +1824,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q22672404",
-          "last_checked": "2026-01-22T16:14:16.938Z"
+          "last_checked": "2026-01-22T16:20:40.236Z"
         }
       },
       {
@@ -1623,7 +1844,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q50845676",
-          "last_checked": "2026-01-22T16:14:18.384Z"
+          "last_checked": "2026-01-22T16:20:41.686Z"
         }
       },
       {
@@ -1643,7 +1864,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q56660561",
-          "last_checked": "2026-01-22T16:14:20.078Z"
+          "last_checked": "2026-01-22T16:20:43.382Z"
         }
       },
       {
@@ -1663,7 +1884,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q3595470",
-          "last_checked": "2026-01-22T16:14:22.176Z"
+          "last_checked": "2026-01-22T16:20:45.484Z"
         }
       },
       {
@@ -1683,7 +1904,47 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q108337007",
-          "last_checked": "2026-01-22T16:14:24.466Z"
+          "last_checked": "2026-01-22T16:20:47.248Z"
+        }
+      },
+      {
+        "id": "nio",
+        "name": "NIO",
+        "region": "East Asia",
+        "country": "Singapore",
+        "url": "https://www.nio.com",
+        "description": "NIO - Premium EVs listed in Singapore",
+        "status": {
+          "is_active": false,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "inactive",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q29921278",
+          "last_checked": "2026-01-22T16:20:49.146Z"
+        }
+      },
+      {
+        "id": "rimac",
+        "name": "Rimac",
+        "region": "Southern Europe",
+        "country": "Croatia",
+        "url": "https://www.rimac-automobili.com",
+        "description": "Rimac - Electric hypercars from Croatia",
+        "status": {
+          "is_active": false,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "inactive",
+          "trustpilot_status": "unverified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q1343245",
+          "last_checked": "2026-01-22T16:20:50.730Z"
         }
       }
     ]
@@ -1713,7 +1974,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q18349346",
-          "last_checked": "2026-01-22T16:14:25.934Z"
+          "last_checked": "2026-01-22T16:20:52.301Z"
         }
       },
       {
@@ -1733,7 +1994,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q3352745",
-          "last_checked": "2026-01-22T16:14:27.678Z"
+          "last_checked": "2026-01-22T16:20:53.964Z"
         }
       },
       {
@@ -1753,7 +2014,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q17052116",
-          "last_checked": "2026-01-22T16:14:29.031Z"
+          "last_checked": "2026-01-22T16:20:55.287Z"
         }
       },
       {
@@ -1773,7 +2034,67 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q17052116",
-          "last_checked": "2026-01-22T16:14:30.334Z"
+          "last_checked": "2026-01-22T16:20:56.713Z"
+        }
+      },
+      {
+        "id": "upcloud",
+        "name": "UpCloud",
+        "region": "Northern Europe",
+        "country": "Finland",
+        "url": "https://upcloud.com",
+        "description": "UpCloud - Cloud hosting from Finland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "unverified",
+          "wikidata_id": null,
+          "last_checked": "2026-01-22T16:20:58.985Z"
+        }
+      },
+      {
+        "id": "exoscale",
+        "name": "Exoscale",
+        "region": "Western Europe",
+        "country": "Switzerland",
+        "url": "https://www.exoscale.com",
+        "description": "Exoscale - European cloud from Switzerland",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "unverified",
+          "wikidata_id": null,
+          "last_checked": "2026-01-22T16:21:01.355Z"
+        }
+      },
+      {
+        "id": "hostinger",
+        "name": "Hostinger",
+        "region": "Northern Europe",
+        "country": "Lithuania",
+        "url": "https://www.hostinger.com",
+        "description": "Hostinger - Web hosting from Lithuania",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q55613975",
+          "last_checked": "2026-01-22T16:21:02.851Z"
         }
       }
     ]
@@ -1803,7 +2124,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q769222",
-          "last_checked": "2026-01-22T16:14:32.023Z"
+          "last_checked": "2026-01-22T16:21:04.365Z"
         }
       },
       {
@@ -1823,7 +2144,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q19758675",
-          "last_checked": "2026-01-22T16:14:34.413Z"
+          "last_checked": "2026-01-22T16:21:06.660Z"
         }
       },
       {
@@ -1843,7 +2164,7 @@
           "trustpilot_status": "unverified",
           "wikidata_status": "verified",
           "wikidata_id": "Q10369",
-          "last_checked": "2026-01-22T16:14:36.338Z"
+          "last_checked": "2026-01-22T16:21:08.560Z"
         }
       },
       {
@@ -1863,7 +2184,67 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q1241023",
-          "last_checked": "2026-01-22T16:14:37.911Z"
+          "last_checked": "2026-01-22T16:21:10.929Z"
+        }
+      },
+      {
+        "id": "spotify",
+        "name": "Spotify",
+        "region": "Northern Europe",
+        "country": "Sweden",
+        "url": "https://www.spotify.com",
+        "description": "Spotify - Music streaming from Sweden",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q689141",
+          "last_checked": "2026-01-22T16:21:13.119Z"
+        }
+      },
+      {
+        "id": "deezer",
+        "name": "Deezer",
+        "region": "Western Europe",
+        "country": "France",
+        "url": "https://www.deezer.com",
+        "description": "Deezer - Music streaming from France",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q602243",
+          "last_checked": "2026-01-22T16:21:15.213Z"
+        }
+      },
+      {
+        "id": "ivi",
+        "name": "ivi",
+        "region": "Eastern Europe",
+        "country": "Estonia",
+        "url": "https://www.ivi.tv",
+        "description": "ivi - Video streaming from Estonia",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q43220270",
+          "last_checked": "2026-01-22T16:21:17.545Z"
         }
       }
     ]
@@ -1893,7 +2274,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q950419",
-          "last_checked": "2026-01-22T16:14:39.834Z"
+          "last_checked": "2026-01-22T16:21:19.305Z"
         }
       },
       {
@@ -1913,7 +2294,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q973054",
-          "last_checked": "2026-01-22T16:14:52.336Z"
+          "last_checked": "2026-01-22T16:21:32.016Z"
         }
       },
       {
@@ -1933,7 +2314,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q1381966",
-          "last_checked": "2026-01-22T16:14:54.689Z"
+          "last_checked": "2026-01-22T16:21:34.143Z"
         }
       },
       {
@@ -1953,7 +2334,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q17061030",
-          "last_checked": "2026-01-22T16:14:56.120Z"
+          "last_checked": "2026-01-22T16:21:35.580Z"
         }
       },
       {
@@ -1973,7 +2354,7 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q58014",
-          "last_checked": "2026-01-22T16:14:57.746Z"
+          "last_checked": "2026-01-22T16:21:37.165Z"
         }
       },
       {
@@ -1993,7 +2374,127 @@
           "trustpilot_status": "verified",
           "wikidata_status": "verified",
           "wikidata_id": "Q7501150",
-          "last_checked": "2026-01-22T16:15:00.145Z"
+          "last_checked": "2026-01-22T16:21:38.844Z"
+        }
+      },
+      {
+        "id": "bol",
+        "name": "Bol.com",
+        "region": "Western Europe",
+        "country": "Netherlands",
+        "url": "https://www.bol.com",
+        "description": "Bol.com - E-commerce from Netherlands",
+        "status": {
+          "is_active": false,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "inactive",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q609913",
+          "last_checked": "2026-01-22T16:21:41.120Z"
+        }
+      },
+      {
+        "id": "takealot",
+        "name": "Takealot",
+        "region": "Africa",
+        "country": "South Africa",
+        "url": "https://www.takealot.com",
+        "description": "Takealot - E-commerce from South Africa",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q54460012",
+          "last_checked": "2026-01-22T16:21:42.887Z"
+        }
+      },
+      {
+        "id": "tokopedia",
+        "name": "Tokopedia",
+        "region": "Southeast Asia",
+        "country": "Indonesia",
+        "url": "https://www.tokopedia.com",
+        "description": "Tokopedia - E-commerce from Indonesia",
+        "status": {
+          "is_active": false,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "inactive",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q12521890",
+          "last_checked": "2026-01-22T16:21:59.479Z"
+        }
+      },
+      {
+        "id": "lazada",
+        "name": "Lazada",
+        "region": "Southeast Asia",
+        "country": "Singapore",
+        "url": "https://www.lazada.com",
+        "description": "Lazada - E-commerce platform from Singapore",
+        "status": {
+          "is_active": true,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "active",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q18712406",
+          "last_checked": "2026-01-22T16:22:03.125Z"
+        }
+      },
+      {
+        "id": "bukalapak",
+        "name": "Bukalapak",
+        "region": "Southeast Asia",
+        "country": "Indonesia",
+        "url": "https://www.bukalapak.com",
+        "description": "Bukalapak - E-commerce from Indonesia",
+        "status": {
+          "is_active": false,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "inactive",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q17320327",
+          "last_checked": "2026-01-22T16:22:05.374Z"
+        }
+      },
+      {
+        "id": "ozon",
+        "name": "Wildberries",
+        "region": "Eastern Europe",
+        "country": "Poland",
+        "url": "https://www.wildberries.pl",
+        "description": "Wildberries - E-commerce in Poland",
+        "status": {
+          "is_active": false,
+          "last_checked": "2026-01-22T16:17:50.674Z",
+          "http_code": 200
+        },
+        "trust_data": {
+          "website_status": "inactive",
+          "trustpilot_status": "verified",
+          "wikidata_status": "verified",
+          "wikidata_id": "Q24933714",
+          "last_checked": "2026-01-22T16:22:08.361Z"
         }
       }
     ]
