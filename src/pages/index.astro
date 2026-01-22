@@ -31,7 +31,17 @@ import servicesData from '../data/services.json';
           </svg>
           <span class="font-semibold">Global Balance</span>
         </a>
-<span class="text-sm text-teal-600/70">Discover global alternatives</span>
+<button
+          id="suggest-btn"
+          class="text-sm text-teal-700 hover:text-teal-500 transition-colors bg-teal-50 px-3 py-1.5 rounded-full border border-teal-200"
+        >
+          + Suggest Service
+        </button>
+        <script>
+          document.getElementById('suggest-btn')?.addEventListener('click', () => {
+            document.dispatchEvent(new CustomEvent('open-suggest-modal'));
+          });
+        </script>
       </nav>
     </header>
 
