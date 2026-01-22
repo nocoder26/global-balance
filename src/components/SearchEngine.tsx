@@ -12,6 +12,7 @@ import {
   Server,
   Play,
   Star,
+  X,
 } from 'lucide-react';
 import { clsx } from 'clsx';
 import { twMerge } from 'tailwind-merge';
@@ -48,7 +49,6 @@ interface SearchEngineProps {
   data: Category[];
 }
 
-// Icon map for categories
 const iconMap: Record<string, React.ElementType> = {
   'Communication': MessageCircle,
   'Productivity & Tools': Briefcase,
@@ -59,7 +59,17 @@ const iconMap: Record<string, React.ElementType> = {
   'Entertainment': Play,
 };
 
-// Country to flag emoji mapping
+// Brand/incumbent aliases for search
+const brandAliases: Record<string, string[]> = {
+  'Electric Vehicles': ['tesla', 'ev', 'electric car'],
+  'Cloud Infrastructure': ['aws', 'amazon web services', 'azure', 'gcp', 'google cloud'],
+  'Entertainment': ['netflix', 'youtube', 'streaming'],
+  'Communication': ['gmail', 'outlook', 'whatsapp', 'messenger'],
+  'Productivity & Tools': ['google drive', 'dropbox', 'onedrive', 'microsoft'],
+  'Social': ['facebook', 'twitter', 'instagram', 'tiktok'],
+  'Information & Browsers': ['google', 'chrome', 'bing'],
+};
+
 function getCountryFlag(country: string): string {
   const flagMap: Record<string, string> = {
     'Germany': '🇩🇪', 'France': '🇫🇷', 'United Kingdom': '🇬🇧',
@@ -97,21 +107,21 @@ function cn(...inputs: (string | undefined | null | false)[]) {
 export default function SearchEngine({ data }: SearchEngineProps) {
   const [query, setQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
+  const [showSuggestModal, setShowSuggestModal] = useState(false);
+  const [suggestion, setSuggestion] = useState({ name: '', url: '', category: '', description: '' });
 
-  // Flatten and filter only active innovators
   const activeInnovators = useMemo(() => {
-    const all: (Innovator & { categoryName: string })[] = [];
+    const all: (Innovator & { categoryName: string; incumbentName: string })[] = [];
     for (const category of data) {
       for (const innovator of category.innovators) {
         if (innovator.status.is_active) {
-          all.push({ ...innovator, categoryName: category.category });
+          all.push({ ...innovator, categoryName: category.category, incumbentName: category.incumbent.name });
         }
       }
     }
     return all;
   }, [data]);
 
-  // Get unique categories from active innovators
   const categories = useMemo(() => {
     const cats = new Set<string>();
     for (const inv of activeInnovators) {
@@ -120,49 +130,69 @@ export default function SearchEngine({ data }: SearchEngineProps) {
     return Array.from(cats).sort();
   }, [activeInnovators]);
 
-  // Setup Fuse.js for fuzzy search
   const fuse = useMemo(() => {
     return new Fuse(activeInnovators, {
-      keys: ['name', 'country', 'region', 'description', 'categoryName'],
+      keys: ['name', 'country', 'region', 'description', 'categoryName', 'incumbentName'],
       threshold: 0.4,
       includeScore: true,
     });
   }, [activeInnovators]);
 
-  // Filter results based on query and category
+  // Check if query matches a brand alias
+  const matchedCategoryFromBrand = useMemo(() => {
+    const q = query.toLowerCase().trim();
+    if (!q) return null;
+    for (const [category, aliases] of Object.entries(brandAliases)) {
+      if (aliases.some(alias => q.includes(alias) || alias.includes(q))) {
+        return category;
+      }
+    }
+    return null;
+  }, [query]);
+
   const results = useMemo(() => {
     let filtered = activeInnovators;
 
-    // Apply category filter
     if (selectedCategory) {
       filtered = filtered.filter(inv => inv.categoryName === selectedCategory);
     }
 
-    // Apply search query
     if (query.trim()) {
-      const searchResults = fuse.search(query);
-      const searchIds = new Set(searchResults.map(r => r.item.id));
-      filtered = filtered.filter(inv => searchIds.has(inv.id));
+      // If brand match found, show that category
+      if (matchedCategoryFromBrand && !selectedCategory) {
+        filtered = activeInnovators.filter(inv => inv.categoryName === matchedCategoryFromBrand);
+      } else {
+        const searchResults = fuse.search(query);
+        const searchIds = new Set(searchResults.map(r => r.item.id));
+        filtered = filtered.filter(inv => searchIds.has(inv.id));
+      }
     }
 
     return filtered;
-  }, [query, selectedCategory, activeInnovators, fuse]);
+  }, [query, selectedCategory, activeInnovators, fuse, matchedCategoryFromBrand]);
 
-  // Format relative time
   const getVerifiedText = (lastChecked: string | null): string => {
     if (!lastChecked) return 'Verified';
     try {
       const date = new Date(lastChecked);
-      return `Verified active ${formatDistanceToNow(date)} ago`;
+      return `Verified ${formatDistanceToNow(date)} ago`;
     } catch {
       return 'Verified';
     }
   };
 
-  // Get category icon component
   const getCategoryIcon = (categoryName: string) => {
     const IconComponent = iconMap[categoryName] || Globe;
     return <IconComponent className="w-3 h-3" />;
+  };
+
+  const handleSuggestSubmit = (e: React.FormEvent) => {
+    e.preventDefault();
+    const subject = encodeURIComponent(`[Suggestion] ${suggestion.name}`);
+    const body = encodeURIComponent(`Service Name: ${suggestion.name}\nURL: ${suggestion.url}\nCategory: ${suggestion.category}\nDescription: ${suggestion.description}`);
+    window.open(`mailto:suggest@globalbalance.org?subject=${subject}&body=${body}`, '_blank');
+    setShowSuggestModal(false);
+    setSuggestion({ name: '', url: '', category: '', description: '' });
   };
 
   return (
@@ -172,7 +202,7 @@ export default function SearchEngine({ data }: SearchEngineProps) {
         <Search className="absolute left-4 top-1/2 -translate-y-1/2 text-teal-600 w-5 h-5" />
         <input
           type="text"
-          placeholder="Search for alternatives (e.g., email, browser, storage...)"
+          placeholder="Search by service, country, or brand (e.g., Tesla, Netflix, AWS...)"
           value={query}
           onChange={(e) => setQuery(e.target.value)}
           className={cn(
@@ -186,10 +216,18 @@ export default function SearchEngine({ data }: SearchEngineProps) {
         />
       </div>
 
-      {/* Disclaimer */}
-      <p className="text-center text-sm text-teal-700/70 mb-6">
-        We can make mistakes, including about people, so double-check it.
-      </p>
+      {/* Brand match hint */}
+      {matchedCategoryFromBrand && !selectedCategory && query && (
+        <p className="text-center text-sm text-teal-600 mb-4">
+          Showing alternatives to <span className="font-semibold">{query}</span> in {matchedCategoryFromBrand}
+        </p>
+      )}
+
+      {!matchedCategoryFromBrand && (
+        <p className="text-center text-sm text-teal-700/70 mb-6">
+          We can make mistakes, so double-check before using any service.
+        </p>
+      )}
 
       {/* Category Pills */}
       <div className="flex flex-wrap gap-2 justify-center mb-8">
@@ -223,6 +261,16 @@ export default function SearchEngine({ data }: SearchEngineProps) {
         })}
       </div>
 
+      {/* Suggest Service Button */}
+      <div className="text-center mb-8">
+        <button
+          onClick={() => setShowSuggestModal(true)}
+          className="text-sm text-teal-600 hover:text-teal-500 underline"
+        >
+          Know a service we're missing? Suggest it here
+        </button>
+      </div>
+
       {/* Results Grid */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
         {results.map((innovator) => (
@@ -239,7 +287,6 @@ export default function SearchEngine({ data }: SearchEngineProps) {
               "hover:-translate-y-1"
             )}
           >
-            {/* Header */}
             <div className="flex items-start justify-between mb-3">
               <div className="flex items-center gap-2">
                 <span className="text-2xl" role="img" aria-label={innovator.country}>
@@ -255,12 +302,10 @@ export default function SearchEngine({ data }: SearchEngineProps) {
               <ExternalLink className="w-4 h-4 text-teal-400 group-hover:text-teal-600 transition-colors" />
             </div>
 
-            {/* Description */}
             <p className="text-teal-800/80 text-sm mb-4 line-clamp-2">
               {innovator.description}
             </p>
 
-            {/* Category Tag */}
             <div className="flex items-center gap-2 mb-3">
               <span className="inline-flex items-center gap-1 px-2 py-1 rounded-full bg-teal-100/80 text-teal-700 text-xs font-medium">
                 {getCategoryIcon(innovator.categoryName)}
@@ -269,7 +314,6 @@ export default function SearchEngine({ data }: SearchEngineProps) {
               <span className="text-xs text-teal-600/60">{innovator.region}</span>
             </div>
 
-            {/* Verification Badges */}
             <div className="flex items-center gap-3">
               <div className="flex items-center gap-1.5 text-xs text-emerald-600">
                 <CheckCircle2 className="w-4 h-4" />
@@ -286,21 +330,83 @@ export default function SearchEngine({ data }: SearchEngineProps) {
         ))}
       </div>
 
-      {/* No Results */}
       {results.length === 0 && (
         <div className="text-center py-16">
           <Globe className="w-16 h-16 mx-auto text-teal-300 mb-4" />
           <h3 className="text-xl font-semibold text-teal-800 mb-2">No results found</h3>
-          <p className="text-teal-600">
-            Try a different search term or category
-          </p>
+          <p className="text-teal-600">Try a different search term or category</p>
         </div>
       )}
 
-      {/* Stats */}
       <div className="mt-12 text-center text-sm text-teal-600/70">
         Showing {results.length} of {activeInnovators.length} verified alternatives
       </div>
+
+      {/* Suggest Modal */}
+      {showSuggestModal && (
+        <div className="fixed inset-0 bg-black/50 flex items-center justify-center z-50 p-4">
+          <div className="bg-white rounded-2xl p-6 max-w-md w-full shadow-xl">
+            <div className="flex justify-between items-center mb-4">
+              <h2 className="text-xl font-semibold text-teal-900">Suggest a Service</h2>
+              <button onClick={() => setShowSuggestModal(false)} className="text-teal-500 hover:text-teal-700">
+                <X className="w-5 h-5" />
+              </button>
+            </div>
+            <form onSubmit={handleSuggestSubmit} className="space-y-4">
+              <div>
+                <label className="block text-sm font-medium text-teal-700 mb-1">Service Name *</label>
+                <input
+                  type="text"
+                  required
+                  value={suggestion.name}
+                  onChange={(e) => setSuggestion({ ...suggestion, name: e.target.value })}
+                  className="w-full px-3 py-2 border border-teal-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
+                  placeholder="e.g., Proton Mail"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-teal-700 mb-1">Website URL *</label>
+                <input
+                  type="url"
+                  required
+                  value={suggestion.url}
+                  onChange={(e) => setSuggestion({ ...suggestion, url: e.target.value })}
+                  className="w-full px-3 py-2 border border-teal-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
+                  placeholder="https://example.com"
+                />
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-teal-700 mb-1">Category</label>
+                <select
+                  value={suggestion.category}
+                  onChange={(e) => setSuggestion({ ...suggestion, category: e.target.value })}
+                  className="w-full px-3 py-2 border border-teal-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
+                >
+                  <option value="">Select a category</option>
+                  {categories.map(cat => <option key={cat} value={cat}>{cat}</option>)}
+                  <option value="Other">Other</option>
+                </select>
+              </div>
+              <div>
+                <label className="block text-sm font-medium text-teal-700 mb-1">Why recommend this?</label>
+                <textarea
+                  value={suggestion.description}
+                  onChange={(e) => setSuggestion({ ...suggestion, description: e.target.value })}
+                  className="w-full px-3 py-2 border border-teal-200 rounded-lg focus:outline-none focus:ring-2 focus:ring-teal-500"
+                  rows={3}
+                  placeholder="Brief description..."
+                />
+              </div>
+              <button
+                type="submit"
+                className="w-full bg-teal-600 text-white py-2 rounded-lg hover:bg-teal-700 transition-colors font-medium"
+              >
+                Submit Suggestion
+              </button>
+            </form>
+          </div>
+        </div>
+      )}
     </div>
   );
 }
