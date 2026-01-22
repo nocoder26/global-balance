@@ -4,7 +4,7 @@
     "icon": "MessageCircle",
     "incumbent": {
       "name": "Various",
-      "hq": "Global"
+      "hq": "USA"
     },
     "innovators": [
       {
@@ -214,7 +214,7 @@
     "icon": "Briefcase",
     "incumbent": {
       "name": "Various",
-      "hq": "Global"
+      "hq": "USA"
     },
     "innovators": [
       {
@@ -1484,7 +1484,7 @@
     "icon": "Globe",
     "incumbent": {
       "name": "Various",
-      "hq": "Global"
+      "hq": "USA"
     },
     "innovators": [
       {
@@ -1554,7 +1554,7 @@
     "icon": "Search",
     "incumbent": {
       "name": "Various",
-      "hq": "Global"
+      "hq": "USA"
     },
     "innovators": []
   },
@@ -1563,7 +1563,7 @@
     "icon": "CarFront",
     "incumbent": {
       "name": "Tesla",
-      "hq": "Global"
+      "hq": "USA"
     },
     "innovators": [
       {
@@ -1693,7 +1693,7 @@
     "icon": "Server",
     "incumbent": {
       "name": "AWS",
-      "hq": "Global"
+      "hq": "USA"
     },
     "innovators": [
       {
@@ -1783,7 +1783,7 @@
     "icon": "Play",
     "incumbent": {
       "name": "Netflix",
-      "hq": "Global"
+      "hq": "USA"
     },
     "innovators": [
       {
@@ -1873,7 +1873,7 @@
     "icon": "ShoppingCart",
     "incumbent": {
       "name": "Amazon",
-      "hq": "Global"
+      "hq": "USA"
     },
     "innovators": [
       {
